@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "payRequsestHandler.h"
-#import "WXApi.h"
+
 @interface AppDelegate ()
 
 @end
