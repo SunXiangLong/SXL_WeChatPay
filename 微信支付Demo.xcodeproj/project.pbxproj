@@ -15,6 +15,16 @@
 		94B6F49D1BD61FEE00B352B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B6F49B1BD61FEE00B352B9 /* LaunchScreen.storyboard */; };
 		94B6F4A81BD61FEE00B352B9 /* ____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B6F4A71BD61FEE00B352B9 /* ____DemoTests.m */; };
 		94B6F4B31BD61FEE00B352B9 /* ____DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B6F4B21BD61FEE00B352B9 /* ____DemoUITests.m */; };
+		94B6F4CC1BD6211E00B352B9 /* ApiXml.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94B6F4C31BD6211E00B352B9 /* ApiXml.mm */; settings = {ASSET_TAGS = (); }; };
+		94B6F4CD1BD6211E00B352B9 /* payRequsestHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94B6F4C51BD6211E00B352B9 /* payRequsestHandler.mm */; settings = {ASSET_TAGS = (); }; };
+		94B6F4CE1BD6211E00B352B9 /* WXUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94B6F4C71BD6211E00B352B9 /* WXUtil.mm */; settings = {ASSET_TAGS = (); }; };
+		94B6F4D91BD6225400B352B9 /* WePayLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B6F4D81BD6225400B352B9 /* WePayLogo.png */; settings = {ASSET_TAGS = (); }; };
+		94B6F4DB1BD624A600B352B9 /* info设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B6F4DA1BD624A600B352B9 /* info设置.png */; settings = {ASSET_TAGS = (); }; };
+		94B6F4DD1BD6265D00B352B9 /* 微信支付只出现确定.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B6F4DC1BD6265D00B352B9 /* 微信支付只出现确定.jpg */; settings = {ASSET_TAGS = (); }; };
+		94B6F4E11BD6286500B352B9 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B6F4E01BD6286500B352B9 /* libWeChatSDK.a */; };
+		94B6F4E21BD629C600B352B9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B6F4D01BD6216800B352B9 /* SystemConfiguration.framework */; };
+		94B6F4E51BD62A3900B352B9 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B6F4D21BD6218200B352B9 /* libsqlite3.0.tbd */; };
+		94B6F4E71BD62A4200B352B9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B6F4E61BD62A4200B352B9 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,26 @@
 		94B6F4AE1BD61FEE00B352B9 /* 微信支付DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微信支付DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B6F4B21BD61FEE00B352B9 /* ____DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____DemoUITests.m"; sourceTree = "<group>"; };
 		94B6F4B41BD61FEE00B352B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B6F4C21BD6211E00B352B9 /* ApiXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiXml.h; sourceTree = "<group>"; };
+		94B6F4C31BD6211E00B352B9 /* ApiXml.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ApiXml.mm; sourceTree = "<group>"; };
+		94B6F4C41BD6211E00B352B9 /* payRequsestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payRequsestHandler.h; sourceTree = "<group>"; };
+		94B6F4C51BD6211E00B352B9 /* payRequsestHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = payRequsestHandler.mm; sourceTree = "<group>"; };
+		94B6F4C61BD6211E00B352B9 /* WXUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXUtil.h; sourceTree = "<group>"; };
+		94B6F4C71BD6211E00B352B9 /* WXUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WXUtil.mm; sourceTree = "<group>"; };
+		94B6F4C91BD6211E00B352B9 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		94B6F4CA1BD6211E00B352B9 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		94B6F4CB1BD6211E00B352B9 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		94B6F4D01BD6216800B352B9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		94B6F4D21BD6218200B352B9 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		94B6F4D41BD6219800B352B9 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		94B6F4D81BD6225400B352B9 /* WePayLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WePayLogo.png; sourceTree = "<group>"; };
+		94B6F4DA1BD624A600B352B9 /* info设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info设置.png"; sourceTree = "<group>"; };
+		94B6F4DC1BD6265D00B352B9 /* 微信支付只出现确定.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "微信支付只出现确定.jpg"; sourceTree = "<group>"; };
+		94B6F4DE1BD6282F00B352B9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		94B6F4E01BD6286500B352B9 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = ../SDKExport/libWeChatSDK.a; sourceTree = "<group>"; };
+		94B6F4E31BD629D900B352B9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		94B6F4E61BD62A4200B352B9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		94B6F4E81BD62A4E00B352B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B6F4E71BD62A4200B352B9 /* libz.tbd in Frameworks */,
+				94B6F4E51BD62A3900B352B9 /* libsqlite3.0.tbd in Frameworks */,
+				94B6F4E21BD629C600B352B9 /* SystemConfiguration.framework in Frameworks */,
+				94B6F4E11BD6286500B352B9 /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +115,14 @@
 		94B6F4811BD61FED00B352B9 = {
 			isa = PBXGroup;
 			children = (
+				94B6F4E81BD62A4E00B352B9 /* CoreGraphics.framework */,
+				94B6F4E61BD62A4200B352B9 /* libz.tbd */,
+				94B6F4E31BD629D900B352B9 /* libsqlite3.tbd */,
+				94B6F4E01BD6286500B352B9 /* libWeChatSDK.a */,
+				94B6F4DE1BD6282F00B352B9 /* CoreTelephony.framework */,
+				94B6F4D41BD6219800B352B9 /* libc.tbd */,
+				94B6F4D21BD6218200B352B9 /* libsqlite3.0.tbd */,
+				94B6F4D01BD6216800B352B9 /* SystemConfiguration.framework */,
 				94B6F48C1BD61FEE00B352B9 /* 微信支付Demo */,
 				94B6F4A61BD61FEE00B352B9 /* 微信支付DemoTests */,
 				94B6F4B11BD61FEE00B352B9 /* 微信支付DemoUITests */,
@@ -101,6 +143,10 @@
 		94B6F48C1BD61FEE00B352B9 /* 微信支付Demo */ = {
 			isa = PBXGroup;
 			children = (
+				94B6F4DC1BD6265D00B352B9 /* 微信支付只出现确定.jpg */,
+				94B6F4D81BD6225400B352B9 /* WePayLogo.png */,
+				94B6F4DA1BD624A600B352B9 /* info设置.png */,
+				94B6F4C01BD6209F00B352B9 /* WechatPay */,
 				94B6F4901BD61FEE00B352B9 /* AppDelegate.h */,
 				94B6F4911BD61FEE00B352B9 /* AppDelegate.m */,
 				94B6F4931BD61FEE00B352B9 /* ViewController.h */,
@@ -138,6 +184,38 @@
 				94B6F4B41BD61FEE00B352B9 /* Info.plist */,
 			);
 			path = "微信支付DemoUITests";
+			sourceTree = "<group>";
+		};
+		94B6F4C01BD6209F00B352B9 /* WechatPay */ = {
+			isa = PBXGroup;
+			children = (
+				94B6F4C11BD6211E00B352B9 /* lib副本 */,
+				94B6F4C81BD6211E00B352B9 /* SDKExport副本 */,
+			);
+			name = WechatPay;
+			sourceTree = "<group>";
+		};
+		94B6F4C11BD6211E00B352B9 /* lib副本 */ = {
+			isa = PBXGroup;
+			children = (
+				94B6F4C21BD6211E00B352B9 /* ApiXml.h */,
+				94B6F4C31BD6211E00B352B9 /* ApiXml.mm */,
+				94B6F4C41BD6211E00B352B9 /* payRequsestHandler.h */,
+				94B6F4C51BD6211E00B352B9 /* payRequsestHandler.mm */,
+				94B6F4C61BD6211E00B352B9 /* WXUtil.h */,
+				94B6F4C71BD6211E00B352B9 /* WXUtil.mm */,
+			);
+			path = "lib副本";
+			sourceTree = "<group>";
+		};
+		94B6F4C81BD6211E00B352B9 /* SDKExport副本 */ = {
+			isa = PBXGroup;
+			children = (
+				94B6F4C91BD6211E00B352B9 /* libWeChatSDK.a */,
+				94B6F4CA1BD6211E00B352B9 /* WXApi.h */,
+				94B6F4CB1BD6211E00B352B9 /* WXApiObject.h */,
+			);
+			path = "SDKExport副本";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +285,7 @@
 				TargetAttributes = {
 					94B6F4891BD61FEE00B352B9 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = JV9YT7847Q;
 					};
 					94B6F4A21BD61FEE00B352B9 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -243,8 +322,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B6F4D91BD6225400B352B9 /* WePayLogo.png in Resources */,
 				94B6F49D1BD61FEE00B352B9 /* LaunchScreen.storyboard in Resources */,
 				94B6F49A1BD61FEE00B352B9 /* Assets.xcassets in Resources */,
+				94B6F4DD1BD6265D00B352B9 /* 微信支付只出现确定.jpg in Resources */,
+				94B6F4DB1BD624A600B352B9 /* info设置.png in Resources */,
 				94B6F4981BD61FEE00B352B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +352,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B6F4CE1BD6211E00B352B9 /* WXUtil.mm in Sources */,
+				94B6F4CC1BD6211E00B352B9 /* ApiXml.mm in Sources */,
 				94B6F4951BD61FEE00B352B9 /* ViewController.m in Sources */,
 				94B6F4921BD61FEE00B352B9 /* AppDelegate.m in Sources */,
 				94B6F48F1BD61FEE00B352B9 /* main.m in Sources */,
+				94B6F4CD1BD6211E00B352B9 /* payRequsestHandler.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -413,10 +498,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "微信支付Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaomabao.www.----Demo";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/微信支付Demo/SDKExport副本",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunxianglong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +517,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "微信支付Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaomabao.www.----Demo";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/微信支付Demo/SDKExport副本",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunxianglong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +599,7 @@
 				94B6F4B91BD61FEE00B352B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94B6F4BA1BD61FEE00B352B9 /* Build configuration list for PBXNativeTarget "微信支付DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +608,7 @@
 				94B6F4BC1BD61FEE00B352B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94B6F4BD1BD61FEE00B352B9 /* Build configuration list for PBXNativeTarget "微信支付DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +617,7 @@
 				94B6F4BF1BD61FEE00B352B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
